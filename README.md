@@ -18,8 +18,8 @@ If you find our work useful, please cite it using the following format:
 }
 
 
-🔗 Emotion-Gait Dataset
-We have also released the Emotion-Gait dataset, which is available for download here:
+**🔗 Emotion-Gait Dataset
+**We have also released the Emotion-Gait dataset, which is available for download here:
 👉 https://go.umd.edu/emotion-gait
 
 📁 Repository Structure
