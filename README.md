@@ -18,17 +18,17 @@ If you find our work useful, please cite it using the following format:
 }
 
 
-**🔗 Emotion-Gait Dataset
-**We have also released the Emotion-Gait dataset, which is available for download here:
-👉 https://go.umd.edu/emotion-gait
+### 🔗 Emotion-Gait Dataset
 
-📁 Repository Structure
-generator_cvae/ — The conditional VAE-based generator.
+We have also released the Emotion-Gait dataset, which is available for download here:  
+👉 [https://go.umd.edu/emotion-gait](https://go.umd.edu/emotion-gait)
 
-classifier_stgcn_real_only/ — Baseline classifier using only the 342 real gaits.
+---
 
-classifier_stgcn_real_and_synth/ — Baseline classifier using both 342 real and N synthetic gaits.
+### 📁 Repository Structure
 
-classifier_hybrid/ — Hybrid classifier using both deep and physiologically-motivated features.
-
-compute_aff_features/ — Scripts to compute affective features from 16-joint pose sequences.
+- `generator_cvae/` — The conditional VAE-based generator.
+- `classifier_stgcn_real_only/` — Baseline classifier using only the 342 real gaits.
+- `classifier_stgcn_real_and_synth/` — Baseline classifier using both 342 real and N synthetic gaits.
+- `classifier_hybrid/` — Hybrid classifier using both deep and physiologically-motivated features.
+- `compute_aff_features/` — Scripts to compute affective features from 16-joint pose sequences.
