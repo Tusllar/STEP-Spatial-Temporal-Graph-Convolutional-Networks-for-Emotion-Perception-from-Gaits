@@ -9,7 +9,16 @@ We have also released the Emotion-Gait dataset, which is available for download 
 👉 [https://go.umd.edu/emotion-gait](https://go.umd.edu/emotion-gait)
 
 ---
+🏷️ Labels Used
+In this implementation, we work with two types of label sets:
 
+Original labels: Emotion annotations provided with the official Emotion-Gait dataset.
+
+Re-assigned labels: Labels that are manually or automatically re-generated based on alternative criteria or annotation methods.
+
+These two sets are used to compare performance and study the robustness of emotion classification under different labeling strategies.
+
+---
 ### 📁 Repository Structure
 
 - `generator_cvae/` — The conditional VAE-based generator.
