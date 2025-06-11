@@ -26,7 +26,7 @@ These two sets are used to compare performance and study the robustness of emoti
 - `classifier_stgcn_real_and_synth/` — Baseline classifier using both 342 real and N synthetic gaits.
 - `classifier_hybrid/` — Hybrid classifier using both deep and physiologically-motivated features.
 - `compute_aff_features/` — Scripts to compute affective features from 16-joint pose sequences.
-
+---
 If you find our work useful, please cite it using the following format:
 
 ```bibtex
@@ -40,6 +40,3 @@ If you find our work useful, please cite it using the following format:
   series    = {AAAI’20},
   numpages  = {9}
 }
-
-
-
